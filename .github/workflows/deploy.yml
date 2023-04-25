@@ -12,4 +12,4 @@ jobs:
     - name: Run Ansible playbook on Localhost
       run: |
        ansible --version
-       ansible-playbook msg.yaml
+       ansible-playbook msg.yml
